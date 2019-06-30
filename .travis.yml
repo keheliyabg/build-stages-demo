@@ -21,4 +21,4 @@ jobs:
         <<: *heroku
         app: sf-stages-production
     - stage: test production
-      script: 'curl http://sf-stages-production.herokuapp.com'
+      script: 'cul http://sf-stages-production.herokuapp.com'
